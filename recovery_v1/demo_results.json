@@ -1,0 +1,2005 @@
+{
+ "冷启动 2026-09-01": {
+  "date": "2026-09-01",
+  "state": "calibrating",
+  "score": null,
+  "score_internal": null,
+  "color": null,
+  "tier": null,
+  "advice": "",
+  "confidence": null,
+  "confidence_reasons": [],
+  "baseline_stage": "calibrating",
+  "baseline_nights": 0,
+  "raw": null,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "sleep": 97.8
+  },
+  "weights_used": {},
+  "z": {},
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [],
+  "summary": "正在建立你的个人基线，再佩戴几晚即可看到恢复分。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 100.0,
+   "efficiency": 100.0,
+   "regularity": 85.0,
+   "continuity": 100.0,
+   "debt": 100.0,
+   "need_min": 450.0,
+   "debt_prev_min": 0.0,
+   "debt_after_min": 0.0
+  }
+ },
+ "冷启动 2026-09-02": {
+  "date": "2026-09-02",
+  "state": "calibrating",
+  "score": null,
+  "score_internal": null,
+  "color": null,
+  "tier": null,
+  "advice": "",
+  "confidence": null,
+  "confidence_reasons": [],
+  "baseline_stage": "calibrating",
+  "baseline_nights": 1,
+  "raw": null,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "sleep": 97.8
+  },
+  "weights_used": {},
+  "z": {},
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [],
+  "summary": "正在建立你的个人基线，再佩戴几晚即可看到恢复分。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 100.0,
+   "efficiency": 100.0,
+   "regularity": 85.0,
+   "continuity": 100.0,
+   "debt": 100.0,
+   "need_min": 450.0,
+   "debt_prev_min": 0.0,
+   "debt_after_min": 0.0
+  }
+ },
+ "冷启动 2026-09-03": {
+  "date": "2026-09-03",
+  "state": "calibrating",
+  "score": null,
+  "score_internal": null,
+  "color": null,
+  "tier": null,
+  "advice": "",
+  "confidence": null,
+  "confidence_reasons": [],
+  "baseline_stage": "calibrating",
+  "baseline_nights": 2,
+  "raw": null,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "sleep": 96.3
+  },
+  "weights_used": {},
+  "z": {},
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [],
+  "summary": "正在建立你的个人基线，再佩戴几晚即可看到恢复分。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.1,
+   "efficiency": 100.0,
+   "regularity": 85.0,
+   "continuity": 100.0,
+   "debt": 98.2,
+   "need_min": 450.0,
+   "debt_prev_min": 0.0,
+   "debt_after_min": 6.5
+  }
+ },
+ "冷启动 2026-09-04": {
+  "date": "2026-09-04",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "low",
+  "confidence_reasons": [
+   "基线建立中（3 晚）"
+  ],
+  "baseline_stage": "estimating",
+  "baseline_nights": 3,
+  "raw": 91.37,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 84.5,
+   "rhr": 97.5,
+   "sleep": 95.3,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": 0.807,
+   "late": 0.644,
+   "early": 0.721,
+   "rhr": 0.812,
+   "resp": 0.0,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "Y_LOW_CONF",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "今日数据可信度较低，结果仅供参考"
+   }
+  ],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "rhr",
+    "direction": "negative",
+    "impact": -0.5,
+    "text": "静息心率高于个人基线"
+   },
+   {
+    "key": "hrv",
+    "direction": "positive",
+    "impact": 6.5,
+    "text": "整夜 HRV 高于个人基线"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 3.8,
+    "text": "睡眠充足、连续"
+   }
+  ],
+  "summary": "恢复一般：静息心率高于个人基线；整夜 HRV 高于个人基线。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 92.9,
+   "efficiency": 100.0,
+   "regularity": 94.2,
+   "continuity": 100.0,
+   "debt": 94.2,
+   "need_min": 451.6,
+   "debt_prev_min": 6.5,
+   "debt_after_min": 21.0
+  }
+ },
+ "场景1 正常高恢复": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 94,
+  "score_internal": 94.43,
+  "color": "green",
+  "tier": "peak",
+  "advice": "身体恢复充分，适合安排高强度训练或重要任务。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 94.43,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "hrv": 88.9,
+   "rhr": 100.0,
+   "sleep": 97.7,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": 1.051,
+   "late": 0.957,
+   "early": 0.843,
+   "rhr": -0.065,
+   "resp": 0.362,
+   "resp_r": 0.4
+  },
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "hrv",
+    "direction": "positive",
+    "impact": 8.5,
+    "text": "整夜 HRV 高于个人基线"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.4,
+    "text": "睡眠充足、连续"
+   },
+   {
+    "key": "rhr",
+    "direction": "positive",
+    "impact": 0.5,
+    "text": "静息心率处于个人正常范围"
+   }
+  ],
+  "summary": "状态很好：整夜 HRV 高于个人基线；睡眠充足、连续。身体恢复充分，适合安排高强度训练或重要任务。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 98.3,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "场景2 假性恢复": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 78.38,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 63.6,
+   "rhr": 89.3,
+   "sleep": 97.7,
+   "resp": 74.7
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -0.355,
+   "late": -0.244,
+   "early": -0.481,
+   "rhr": 1.693,
+   "resp": 2.351,
+   "resp_r": 2.351
+  },
+  "gates": [
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   },
+   {
+    "code": "Y_RESP",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "夜间呼吸率高于个人基线"
+   },
+   {
+    "code": "Y_ILLNESS",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "多项夜间指标偏离个人基线"
+   }
+  ],
+  "illness_points": 4,
+  "illness_physio_points": 4,
+  "illness_level": "moderate",
+  "illness_message": "你的夜间恢复指标出现多项异常，与平时状态相比明显偏离。建议今天以休息为主，注意身体感受。",
+  "top_factors": [
+   {
+    "key": "Y_RHR",
+    "direction": "negative",
+    "impact": null,
+    "text": "静息心率高于个人基线"
+   },
+   {
+    "key": "Y_RESP",
+    "direction": "negative",
+    "impact": null,
+    "text": "夜间呼吸率高于个人基线"
+   },
+   {
+    "key": "Y_ILLNESS",
+    "direction": "negative",
+    "impact": null,
+    "text": "多项夜间指标偏离个人基线"
+   }
+  ],
+  "summary": "恢复一般：静息心率高于个人基线；夜间呼吸率高于个人基线。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": true,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 98.3,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "场景3 典型疲劳": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 33,
+  "score_internal": 33.0,
+  "color": "red",
+  "tier": "red",
+  "advice": "身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 66.82,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -3.93,
+  "cap": 33.0,
+  "subscores": {
+   "hrv": 38.3,
+   "rhr": 75.5,
+   "sleep": 97.9,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -1.543,
+   "late": -1.154,
+   "early": -1.169,
+   "rhr": 2.675,
+   "resp": -0.362,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "R_HRV_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   },
+   {
+    "code": "Y_ILLNESS",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "多项夜间指标偏离个人基线"
+   }
+  ],
+  "illness_points": 4,
+  "illness_physio_points": 4,
+  "illness_level": "moderate",
+  "illness_message": "你的夜间恢复指标出现多项异常，与平时状态相比明显偏离。建议今天以休息为主，注意身体感受。",
+  "top_factors": [
+   {
+    "key": "R_HRV_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "Y_LATE",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "key": "Y_RHR",
+    "direction": "negative",
+    "impact": null,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "summary": "需要休息：HRV 明显低于基线，同时静息心率或呼吸率升高；后半夜 HRV 恢复不足。身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "baseline_outlier": true,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 100.0,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "场景4 可能不适": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 33,
+  "score_internal": 33.0,
+  "color": "red",
+  "tier": "red",
+  "advice": "身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 50.58,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -6.0,
+  "cap": 33.0,
+  "subscores": {
+   "hrv": 15.8,
+   "rhr": 65.0,
+   "sleep": 97.9,
+   "resp": 60.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -2.679,
+   "late": -2.295,
+   "early": -2.048,
+   "rhr": 3.581,
+   "resp": 5.064,
+   "resp_r": 5.064
+  },
+  "gates": [
+   {
+    "code": "R_HRV_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_LATE_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_RESP_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "夜间呼吸率显著升高，并伴随心率升高或不适"
+   },
+   {
+    "code": "R_MULTI_SEVERE",
+    "level": "red",
+    "cap": 33.0,
+    "text": "两项及以上核心指标严重偏离基线"
+   },
+   {
+    "code": "R_ILLNESS",
+    "level": "red",
+    "cap": 33.0,
+    "text": "多项身体信号明显偏离个人基线"
+   },
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   },
+   {
+    "code": "Y_RESP",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "夜间呼吸率高于个人基线"
+   },
+   {
+    "code": "Y_SYMPTOM",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "你标记了轻微不适"
+   }
+  ],
+  "illness_points": 11,
+  "illness_physio_points": 9,
+  "illness_level": "high",
+  "illness_message": "你的夜间多项身体信号明显偏离个人基线。建议今天充分休息；如果同时感到明显不适，请关注身体状况，必要时咨询专业人士。",
+  "top_factors": [
+   {
+    "key": "R_HRV_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_LATE_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_RESP_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "夜间呼吸率显著升高，并伴随心率升高或不适"
+   }
+  ],
+  "summary": "需要休息：HRV 明显低于基线，同时静息心率或呼吸率升高；后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高。身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "baseline_outlier": true,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 100.0,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "场景5 睡眠差生理正常": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [
+   "近 3 晚累计少睡约 159 分钟"
+  ],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 76.93,
+  "trend_adjustment": -3.65,
+  "late_adjustment": 0.0,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 76.4,
+   "rhr": 100.0,
+   "sleep": 50.3,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": 0.353,
+   "late": 0.386,
+   "early": 0.018,
+   "rhr": -0.203,
+   "resp": 0.181,
+   "resp_r": 0.2
+  },
+  "gates": [
+   {
+    "code": "Y_SLEEP",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "睡眠质量或时长不足"
+   },
+   {
+    "code": "Y_TST",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "总睡眠不足 5 小时"
+   }
+  ],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "Y_SLEEP",
+    "direction": "negative",
+    "impact": null,
+    "text": "睡眠质量或时长不足"
+   },
+   {
+    "key": "trend",
+    "direction": "negative",
+    "impact": -3.6,
+    "text": "近几天指标持续走弱"
+   },
+   {
+    "key": "hrv",
+    "direction": "positive",
+    "impact": 2.9,
+    "text": "整夜 HRV 高于个人基线"
+   }
+  ],
+  "summary": "恢复一般：睡眠质量或时长不足；近几天指标持续走弱。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 27.1,
+   "efficiency": 97.5,
+   "regularity": 40.8,
+   "continuity": 77.1,
+   "debt": 47.6,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 188.5
+  }
+ },
+ "场景6 后半夜恢复回来": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 82,
+  "score_internal": 82.45,
+  "color": "green",
+  "tier": "green",
+  "advice": "可以正常训练和工作，按计划进行。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 82.45,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "hrv": 63.9,
+   "rhr": 96.2,
+   "sleep": 97.8,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -0.34,
+   "late": 1.043,
+   "early": -1.025,
+   "rhr": 0.971,
+   "resp": 0.181,
+   "resp_r": 0.2
+  },
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.4,
+    "text": "睡眠充足、连续"
+   },
+   {
+    "key": "resp",
+    "direction": "positive",
+    "impact": 0.3,
+    "text": "夜间呼吸率平稳"
+   },
+   {
+    "key": "hrv",
+    "direction": "negative",
+    "impact": -2.7,
+    "text": "整夜 HRV 低于个人基线"
+   }
+  ],
+  "summary": "恢复良好：睡眠充足、连续；夜间呼吸率平稳。可以正常训练和工作，按计划进行。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 99.2,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "场景7 后半夜仍未恢复": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 33,
+  "score_internal": 33.0,
+  "color": "red",
+  "tier": "red",
+  "advice": "身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 63.98,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -6.0,
+  "cap": 33.0,
+  "subscores": {
+   "hrv": 28.5,
+   "rhr": 83.7,
+   "sleep": 97.7,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -1.973,
+   "late": -2.5,
+   "early": -0.815,
+   "rhr": 2.092,
+   "resp": 0.0,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "R_HRV_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_LATE_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   },
+   {
+    "code": "Y_ILLNESS",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "多项夜间指标偏离个人基线"
+   }
+  ],
+  "illness_points": 4,
+  "illness_physio_points": 4,
+  "illness_level": "moderate",
+  "illness_message": "你的夜间恢复指标出现多项异常，与平时状态相比明显偏离。建议今天以休息为主，注意身体感受。",
+  "top_factors": [
+   {
+    "key": "R_HRV_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_LATE_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "Y_RHR",
+    "direction": "negative",
+    "impact": null,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "summary": "需要休息：HRV 明显低于基线，同时静息心率或呼吸率升高；后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高。身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "baseline_outlier": true,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 98.3,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "边界 睡眠<3h": {
+  "date": "2026-10-11",
+  "state": "sleep_too_short",
+  "score": null,
+  "score_internal": null,
+  "color": null,
+  "tier": null,
+  "advice": "",
+  "confidence": null,
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": null,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {},
+  "weights_used": {},
+  "z": {},
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [],
+  "summary": "昨晚睡眠时间太短，无法可靠评估恢复状态。",
+  "baseline_outlier": false,
+  "sleep_detail": {}
+ },
+ "边界 脱戴过多": {
+  "date": "2026-10-11",
+  "state": "insufficient_data",
+  "score": null,
+  "score_internal": null,
+  "color": null,
+  "tier": null,
+  "advice": "",
+  "confidence": null,
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": null,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {},
+  "weights_used": {},
+  "z": {},
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [],
+  "summary": "昨晚有效佩戴数据不足，今天暂不给出恢复分。",
+  "baseline_outlier": false,
+  "sleep_detail": {}
+ },
+ "边界 HRV 缺失": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "low",
+  "confidence_reasons": [
+   "今晚 HRV 数据不足",
+   "有效 HRV 片段过少"
+  ],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 97.6,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": null,
+   "rhr": 100.0,
+   "sleep": 97.9,
+   "resp": 92.0
+  },
+  "weights_used": {
+   "rhr": 0.364,
+   "sleep": 0.455,
+   "resp": 0.182
+  },
+  "z": {
+   "hrv": null,
+   "late": null,
+   "early": null,
+   "rhr": 0.165,
+   "resp": 0.904,
+   "resp_r": 1.0
+  },
+  "gates": [
+   {
+    "code": "Y_LOW_CONF",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "今日数据可信度较低，结果仅供参考"
+   }
+  ],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "resp",
+    "direction": "negative",
+    "impact": -1.5,
+    "text": "夜间呼吸率偏高"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 8.1,
+    "text": "睡眠充足、连续"
+   },
+   {
+    "key": "rhr",
+    "direction": "positive",
+    "impact": 0.5,
+    "text": "静息心率处于个人正常范围"
+   }
+  ],
+  "summary": "恢复一般：夜间呼吸率偏高；睡眠充足、连续。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 100.0,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "连续疲劳第1晚": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 78.42,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -1.13,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 53.3,
+   "rhr": 100.0,
+   "sleep": 97.8,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -0.867,
+   "late": -0.688,
+   "early": -0.787,
+   "rhr": 0.365,
+   "resp": 0.362,
+   "resp_r": 0.4
+  },
+  "gates": [
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   }
+  ],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "Y_HRV",
+    "direction": "negative",
+    "impact": null,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "key": "late",
+    "direction": "negative",
+    "impact": -0.5,
+    "text": "后半夜 HRV 回升不足"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.4,
+    "text": "睡眠充足、连续"
+   }
+  ],
+  "summary": "恢复一般：整夜 HRV 低于个人基线；后半夜 HRV 回升不足。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 99.2,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "连续疲劳第2晚": {
+  "date": "2026-10-12",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 71.1,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -4.43,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 37.1,
+   "rhr": 100.0,
+   "sleep": 97.6,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -1.58,
+   "late": -1.238,
+   "early": -1.316,
+   "rhr": 0.042,
+   "resp": -0.271,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   }
+  ],
+  "illness_points": 1,
+  "illness_physio_points": 1,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "Y_HRV",
+    "direction": "negative",
+    "impact": null,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "key": "Y_LATE",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.4,
+    "text": "睡眠充足、连续"
+   }
+  ],
+  "summary": "恢复一般：整夜 HRV 低于个人基线；后半夜 HRV 恢复不足。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 96.9,
+   "efficiency": 100.0,
+   "regularity": 98.8,
+   "continuity": 100.0,
+   "debt": 91.5,
+   "need_min": 457.1,
+   "debt_prev_min": 30.5,
+   "debt_after_min": 30.5
+  }
+ },
+ "连续疲劳第3晚": {
+  "date": "2026-10-13",
+  "state": "scored",
+  "score": 33,
+  "score_internal": 33.0,
+  "color": "red",
+  "tier": "red",
+  "advice": "身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 63.73,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -6.0,
+  "cap": 33.0,
+  "subscores": {
+   "hrv": 23.2,
+   "rhr": 94.6,
+   "sleep": 97.5,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -2.267,
+   "late": -1.969,
+   "early": -1.881,
+   "rhr": 1.178,
+   "resp": -0.09,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "R_HRV_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_LATE_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "illness_points": 3,
+  "illness_physio_points": 3,
+  "illness_level": "mild",
+  "illness_message": "你的夜间恢复指标出现轻度异常，今天可以适当降低强度，多补充水分并保证睡眠。",
+  "top_factors": [
+   {
+    "key": "R_HRV_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_LATE_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "Y_RHR",
+    "direction": "negative",
+    "impact": null,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "summary": "需要休息：HRV 明显低于基线，同时静息心率或呼吸率升高；后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高。身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 96.6,
+   "efficiency": 100.0,
+   "regularity": 99.6,
+   "continuity": 100.0,
+   "debt": 91.2,
+   "need_min": 457.9,
+   "debt_prev_min": 31.5,
+   "debt_after_min": 31.5
+  }
+ },
+ "连续疲劳第4晚": {
+  "date": "2026-10-14",
+  "state": "scored",
+  "score": 33,
+  "score_internal": 33.0,
+  "color": "red",
+  "tier": "red",
+  "advice": "身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "confidence": "high",
+  "confidence_reasons": [
+   "近几晚 HRV 持续下降、静息心率持续上升"
+  ],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 55.88,
+  "trend_adjustment": -6.87,
+  "late_adjustment": -6.0,
+  "cap": 33.0,
+  "subscores": {
+   "hrv": 15.8,
+   "rhr": 76.0,
+   "sleep": 97.5,
+   "resp": 92.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -2.676,
+   "late": -2.21,
+   "early": -2.169,
+   "rhr": 2.644,
+   "resp": 0.904,
+   "resp_r": 1.0
+  },
+  "gates": [
+   {
+    "code": "R_HRV_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_LATE_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_MULTI_SEVERE",
+    "level": "red",
+    "cap": 33.0,
+    "text": "两项及以上核心指标严重偏离基线"
+   },
+   {
+    "code": "R_ILLNESS",
+    "level": "red",
+    "cap": 33.0,
+    "text": "多项身体信号明显偏离个人基线"
+   },
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "illness_points": 6,
+  "illness_physio_points": 6,
+  "illness_level": "high",
+  "illness_message": "你的夜间多项身体信号明显偏离个人基线。建议今天充分休息；如果同时感到明显不适，请关注身体状况，必要时咨询专业人士。",
+  "top_factors": [
+   {
+    "key": "R_HRV_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_LATE_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_MULTI_SEVERE",
+    "direction": "negative",
+    "impact": null,
+    "text": "两项及以上核心指标严重偏离基线"
+   }
+  ],
+  "summary": "需要休息：HRV 明显低于基线，同时静息心率或呼吸率升高；后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高。身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "baseline_outlier": true,
+  "sleep_detail": {
+   "duration": 96.6,
+   "efficiency": 100.0,
+   "regularity": 99.2,
+   "continuity": 100.0,
+   "debt": 91.2,
+   "need_min": 457.9,
+   "debt_prev_min": 31.5,
+   "debt_after_min": 31.5
+  }
+ },
+ "回升第1晚": {
+  "date": "2026-10-11",
+  "state": "scored",
+  "score": 33,
+  "score_internal": 33.0,
+  "color": "red",
+  "tier": "red",
+  "advice": "身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 58.63,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -6.0,
+  "cap": 33.0,
+  "subscores": {
+   "hrv": 11.1,
+   "rhr": 96.0,
+   "sleep": 97.7,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -2.937,
+   "late": -2.431,
+   "early": -2.307,
+   "rhr": 1.002,
+   "resp": 0.181,
+   "resp_r": 0.2
+  },
+  "gates": [
+   {
+    "code": "R_HRV_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "R_LATE_COMBO",
+    "level": "red",
+    "cap": 33.0,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "code": "Y_RHR",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "illness_points": 3,
+  "illness_physio_points": 3,
+  "illness_level": "mild",
+  "illness_message": "你的夜间恢复指标出现轻度异常，今天可以适当降低强度，多补充水分并保证睡眠。",
+  "top_factors": [
+   {
+    "key": "R_HRV_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "HRV 明显低于基线，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "R_LATE_COMBO",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高"
+   },
+   {
+    "key": "Y_RHR",
+    "direction": "negative",
+    "impact": null,
+    "text": "静息心率高于个人基线"
+   }
+  ],
+  "summary": "需要休息：HRV 明显低于基线，同时静息心率或呼吸率升高；后半夜 HRV 恢复明显不足，同时静息心率或呼吸率升高。身体信号提示恢复不足，今天建议以休息为主，避免高强度训练。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.2,
+   "efficiency": 100.0,
+   "regularity": 98.3,
+   "continuity": 100.0,
+   "debt": 91.8,
+   "need_min": 456.4,
+   "debt_prev_min": 29.5,
+   "debt_after_min": 29.5
+  }
+ },
+ "回升第2晚": {
+  "date": "2026-10-12",
+  "state": "scored",
+  "score": 59,
+  "score_internal": 58.74,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 58.74,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -6.0,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 9.6,
+   "rhr": 100.0,
+   "sleep": 97.7,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -3.025,
+   "late": -2.448,
+   "early": -2.272,
+   "rhr": 0.042,
+   "resp": -0.452,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   }
+  ],
+  "illness_points": 3,
+  "illness_physio_points": 3,
+  "illness_level": "mild",
+  "illness_message": "你的夜间恢复指标出现轻度异常，今天可以适当降低强度，多补充水分并保证睡眠。",
+  "top_factors": [
+   {
+    "key": "Y_HRV",
+    "direction": "negative",
+    "impact": null,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "key": "Y_LATE",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.4,
+    "text": "睡眠充足、连续"
+   }
+  ],
+  "summary": "恢复一般：整夜 HRV 低于个人基线；后半夜 HRV 恢复不足。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": true,
+  "sleep_detail": {
+   "duration": 96.9,
+   "efficiency": 100.0,
+   "regularity": 100.0,
+   "continuity": 100.0,
+   "debt": 91.5,
+   "need_min": 457.1,
+   "debt_prev_min": 30.5,
+   "debt_after_min": 30.5
+  }
+ },
+ "回升第3晚": {
+  "date": "2026-10-13",
+  "state": "scored",
+  "score": 65,
+  "score_internal": 64.52,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 64.52,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -6.0,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 22.5,
+   "rhr": 100.0,
+   "sleep": 97.6,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -2.307,
+   "late": -1.782,
+   "early": -1.964,
+   "rhr": -0.15,
+   "resp": -0.09,
+   "resp_r": 0.0
+  },
+  "gates": [
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "code": "Y_LATE",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "后半夜 HRV 恢复不足"
+   }
+  ],
+  "illness_points": 3,
+  "illness_physio_points": 3,
+  "illness_level": "mild",
+  "illness_message": "你的夜间恢复指标出现轻度异常，今天可以适当降低强度，多补充水分并保证睡眠。",
+  "top_factors": [
+   {
+    "key": "Y_HRV",
+    "direction": "negative",
+    "impact": null,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "key": "Y_LATE",
+    "direction": "negative",
+    "impact": null,
+    "text": "后半夜 HRV 恢复不足"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.4,
+    "text": "睡眠充足、连续"
+   }
+  ],
+  "summary": "恢复一般：整夜 HRV 低于个人基线；后半夜 HRV 恢复不足。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 96.9,
+   "efficiency": 100.0,
+   "regularity": 99.2,
+   "continuity": 100.0,
+   "debt": 91.5,
+   "need_min": 457.1,
+   "debt_prev_min": 30.5,
+   "debt_after_min": 30.5
+  }
+ },
+ "回升第4晚": {
+  "date": "2026-10-14",
+  "state": "scored",
+  "score": 66,
+  "score_internal": 66.0,
+  "color": "yellow",
+  "tier": "high_yellow",
+  "advice": "可以活动，但建议降低强度，避免冲击极限。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 79.14,
+  "trend_adjustment": 0.0,
+  "late_adjustment": -0.75,
+  "cap": 66.0,
+  "subscores": {
+   "hrv": 55.1,
+   "rhr": 100.0,
+   "sleep": 97.3,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -0.785,
+   "late": -0.625,
+   "early": -0.679,
+   "rhr": -0.418,
+   "resp": 0.271,
+   "resp_r": 0.3
+  },
+  "gates": [
+   {
+    "code": "Y_HRV",
+    "level": "yellow",
+    "cap": 66.0,
+    "text": "整夜 HRV 低于个人基线"
+   }
+  ],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "Y_HRV",
+    "direction": "negative",
+    "impact": null,
+    "text": "整夜 HRV 低于个人基线"
+   },
+   {
+    "key": "late",
+    "direction": "negative",
+    "impact": -0.3,
+    "text": "后半夜 HRV 回升不足"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.3,
+    "text": "睡眠充足、连续"
+   }
+  ],
+  "summary": "恢复一般：整夜 HRV 低于个人基线；后半夜 HRV 回升不足。可以活动，但建议降低强度，避免冲击极限。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 96.6,
+   "efficiency": 100.0,
+   "regularity": 98.3,
+   "continuity": 100.0,
+   "debt": 91.2,
+   "need_min": 457.9,
+   "debt_prev_min": 31.5,
+   "debt_after_min": 31.5
+  }
+ },
+ "回升第5晚": {
+  "date": "2026-10-15",
+  "state": "scored",
+  "score": 86,
+  "score_internal": 85.99,
+  "color": "green",
+  "tier": "peak",
+  "advice": "身体恢复充分，适合安排高强度训练或重要任务。",
+  "confidence": "high",
+  "confidence_reasons": [],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 85.99,
+  "trend_adjustment": 0.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "hrv": 69.9,
+   "rhr": 100.0,
+   "sleep": 98.2,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": -0.007,
+   "late": 0.097,
+   "early": 0.043,
+   "rhr": 0.058,
+   "resp": 0.271,
+   "resp_r": 0.3
+  },
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.6,
+    "text": "睡眠充足、连续"
+   },
+   {
+    "key": "rhr",
+    "direction": "positive",
+    "impact": 0.5,
+    "text": "静息心率处于个人正常范围"
+   },
+   {
+    "key": "resp",
+    "direction": "positive",
+    "impact": 0.3,
+    "text": "夜间呼吸率平稳"
+   }
+  ],
+  "summary": "状态很好：睡眠充足、连续；静息心率处于个人正常范围。身体恢复充分，适合安排高强度训练或重要任务。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 97.4,
+   "efficiency": 100.0,
+   "regularity": 100.0,
+   "continuity": 100.0,
+   "debt": 93.5,
+   "need_min": 455.9,
+   "debt_prev_min": 23.5,
+   "debt_after_min": 23.5
+  }
+ },
+ "回升第6晚": {
+  "date": "2026-10-16",
+  "state": "scored",
+  "score": 91,
+  "score_internal": 91.43,
+  "color": "green",
+  "tier": "peak",
+  "advice": "身体恢复充分，适合安排高强度训练或重要任务。",
+  "confidence": "high",
+  "confidence_reasons": [
+   "HRV 较前几天明显回升"
+  ],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 88.08,
+  "trend_adjustment": 3.35,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "hrv": 73.6,
+   "rhr": 100.0,
+   "sleep": 99.9,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": 0.197,
+   "late": 0.267,
+   "early": 0.137,
+   "rhr": 0.464,
+   "resp": 0.0,
+   "resp_r": 0.0
+  },
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 5.0,
+    "text": "睡眠充足、连续"
+   },
+   {
+    "key": "trend",
+    "direction": "positive",
+    "impact": 3.4,
+    "text": "近几天整体在回升"
+   },
+   {
+    "key": "hrv",
+    "direction": "positive",
+    "impact": 1.6,
+    "text": "整夜 HRV 高于个人基线"
+   }
+  ],
+  "summary": "状态很好：睡眠充足、连续；近几天整体在回升。身体恢复充分，适合安排高强度训练或重要任务。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 100.0,
+   "efficiency": 100.0,
+   "regularity": 99.6,
+   "continuity": 100.0,
+   "debt": 100.0,
+   "need_min": 450.0,
+   "debt_prev_min": 0.0,
+   "debt_after_min": 0.0
+  }
+ },
+ "回升第7晚": {
+  "date": "2026-10-17",
+  "state": "scored",
+  "score": 94,
+  "score_internal": 94.08,
+  "color": "green",
+  "tier": "peak",
+  "advice": "身体恢复充分，适合安排高强度训练或重要任务。",
+  "confidence": "high",
+  "confidence_reasons": [
+   "HRV 较前几天明显回升"
+  ],
+  "baseline_stage": "formal",
+  "baseline_nights": 30,
+  "raw": 89.08,
+  "trend_adjustment": 5.0,
+  "late_adjustment": 0.0,
+  "cap": 100.0,
+  "subscores": {
+   "hrv": 75.9,
+   "rhr": 100.0,
+   "sleep": 99.8,
+   "resp": 100.0
+  },
+  "weights_used": {
+   "hrv": 0.45,
+   "rhr": 0.2,
+   "sleep": 0.25,
+   "resp": 0.1
+  },
+  "z": {
+   "hrv": 0.326,
+   "late": 0.289,
+   "early": 0.288,
+   "rhr": -0.058,
+   "resp": -1.085,
+   "resp_r": 0.0
+  },
+  "gates": [],
+  "illness_points": 0,
+  "illness_physio_points": 0,
+  "illness_level": "none",
+  "illness_message": null,
+  "top_factors": [
+   {
+    "key": "trend",
+    "direction": "positive",
+    "impact": 5.0,
+    "text": "近几天整体在回升"
+   },
+   {
+    "key": "sleep",
+    "direction": "positive",
+    "impact": 4.9,
+    "text": "睡眠充足、连续"
+   },
+   {
+    "key": "hrv",
+    "direction": "positive",
+    "impact": 2.7,
+    "text": "整夜 HRV 高于个人基线"
+   }
+  ],
+  "summary": "状态很好：近几天整体在回升；睡眠充足、连续。身体恢复充分，适合安排高强度训练或重要任务。",
+  "baseline_outlier": false,
+  "sleep_detail": {
+   "duration": 100.0,
+   "efficiency": 100.0,
+   "regularity": 98.3,
+   "continuity": 100.0,
+   "debt": 100.0,
+   "need_min": 450.0,
+   "debt_prev_min": 0.0,
+   "debt_after_min": 0.0
+  }
+ }
+}

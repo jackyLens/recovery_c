@@ -1,0 +1,16 @@
+# Generated C build outputs
+/recovery_c/build/
+
+# Swift Package Manager / Xcode data
+/.build/
+/.swiftpm/
+/.xcode-derived/
+/.xcode-home/
+
+# Python and macOS local files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Opaque local-tool metadata
+**/.abacus.donotdelete
