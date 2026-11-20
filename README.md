@@ -1,10 +1,4 @@
-# Recovery：C99 工程与 Python 参考实现
 
-此仓库整理自 `recovery_C.zip`，保留 C99 移植、Python 参考实现及相关设计资料。
-
-- `recovery_c/`：C99 库、示例、单元测试和与 Python 结果的 parity 用例。
-- `recovery_v1/`：Python 参考实现、测试和示例输入。
-- `Uploads/` 与 `recovery_v1/`：Recovery 功能设计方案。
 
 ## Xcode（macOS）
 
